@@ -1,7 +1,7 @@
 {
   "name": "angular-cron-humanize",
   "version": "1.0.6",
-  "description": "Cron to human translator",
+  "description": "Cron to human translator.",
   "main": "dist/index.js",
   "directories": {
     "test": "test",
