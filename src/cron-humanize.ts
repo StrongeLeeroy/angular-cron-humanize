@@ -435,5 +435,5 @@ class CronParser {
 }
 
 angular
-    .module('cronHumanize')
+    .module('cronHumanize', [])
     .service('CronHumanize', CronParser);
