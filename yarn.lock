@@ -283,6 +283,10 @@ core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
+cron-humanize@1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/cron-humanize/-/cron-humanize-1.0.6.tgz#7f26247c8b6ed37e0dd69e0e89e6e0ec4cab3d46"
+
 cryptiles@2.x.x:
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/cryptiles/-/cryptiles-2.0.5.tgz#3bdfecdc608147c1c67202fa291e7dca59eaa3b8"

@@ -12,6 +12,20 @@ Currently under development. Not feature complete.
 Download the bower package:
 
     bower install --save angular-cron-humanize
+    
+Make sure that the library file is included in your page, be it via a build process or harcoding the reference. E.g.:
+
+    <!doctype html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <title>Angular Cron Humanize</title>
+        </head>
+        <body>
+            <script src="path/to/angular.js"></script>
+            <script src="path/to/angular-cron-humanize/dist/index.js"></script>
+        </body<
+    </html>
 
 Add the module as a dependency of your application. E.g.:
 

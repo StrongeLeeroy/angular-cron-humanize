@@ -1,5 +1,5 @@
 module.exports = {
-    entry: "./src/cron-humanize.ts",
+    entry: "./src/angular-cron-humanize.js",
     output: {
         filename: "./dist/index.js"
     },
@@ -9,7 +9,6 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: /\.ts$/, loader: 'ts-loader'},
             { test: /\.js$/, loader: 'source-map-loader' }
         ]
     },
