@@ -19,5 +19,6 @@
   "homepage": "https://github.com/StrongeLeeroy/angular-cron-humanize",
   "dependencies": {
     "angular": "~1.5.0"
-  }
+  },
+  "version": "1.0.1"
 }
