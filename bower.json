@@ -18,6 +18,6 @@
   "license": "MIT",
   "homepage": "https://github.com/StrongeLeeroy/angular-cron-humanize",
   "dependencies": {
-    "angular": "^1.4.0"
+    "angular": "~1.5.0"
   }
 }
