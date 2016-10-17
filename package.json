@@ -1,0 +1,26 @@
+{
+  "name": "angular-cron-humanize",
+  "version": "1.0.0",
+  "description": "Cron to human translator",
+  "main": "dist/cron-humanize.js",
+  "directories": {
+    "test": "test",
+    "src": "src",
+    "dist": "dist"
+  },
+  "scripts": {
+    "build": "tsc --target es5",
+    "build:test": "tsc --target es5 && mocha test"
+  },
+  "keywords": [
+    "cron",
+    "translate",
+    "human",
+    "language"
+  ],
+  "author": "Gorka Hernandez <info@gorkahernandez.com> (https://www.gorkahernandez.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.0.3"
+  }
+}

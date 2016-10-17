@@ -1,0 +1,23 @@
+{
+  "name": "angular-cron-humanize",
+  "authors": [
+    "Gorka Hernandez <info@gorkahernandez.com> (https://www.gorkahernandez.com)"
+  ],
+  "description": "Cron to human translator",
+  "main": "dist/cron-humanize.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "cron",
+    "translate",
+    "human",
+    "language",
+    "expression"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/StrongeLeeroy/angular-cron-humanize",
+  "dependencies": {
+    "angular": "^1.4.0"
+  }
+}
