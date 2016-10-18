@@ -4,7 +4,7 @@
     "Gorka Hernandez <info@gorkahernandez.com> (https://www.gorkahernandez.com)"
   ],
   "description": "Cron to human translator",
-  "main": "dist/angular-cron-humanize.min.js",
+  "main": "dist/angular-cron-translate.min.js",
   "moduleType": [
     "globals"
   ],
