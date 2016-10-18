@@ -1,6 +1,6 @@
 {
   "name": "angular-cron-translate",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Cron to human translator.",
   "main": "dist/angular-cron-translate.js",
   "types": "dist/src/angular-cron-translate.d.ts",
