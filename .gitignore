@@ -1,5 +1,4 @@
 node_modules
 typings
 bower_components
-src/**/*.js
 src/**/*.js.map

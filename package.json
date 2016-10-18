@@ -1,15 +1,17 @@
 {
-  "name": "angular-cron-humanize",
+  "name": "angular-cron-translate",
   "version": "1.0.6",
   "description": "Cron to human translator.",
-  "main": "dist/index.js",
+  "main": "dist/angular-cron-translate.js",
+  "types": "dist/src/angular-cron-translate.d.ts",
   "directories": {
     "test": "test",
     "src": "src",
     "dist": "dist"
   },
   "scripts": {
-    "build": "webpack -p --progress"
+    "build": "tsc",
+    "release": "del /Q dist && webpack && move /Y dist/src/* dist/ && del /Q dist/src"
   },
   "keywords": [
     "cron",
@@ -20,10 +22,13 @@
   "author": "Gorka Hernandez <info@gorkahernandez.com> (https://www.gorkahernandez.com)",
   "license": "MIT",
   "devDependencies": {
+    "awesome-typescript-loader": "^2.2.4",
+    "expose-loader": "^0.7.1",
     "source-map-loader": "^0.1.5",
+    "typescript": "^2.0.3",
     "webpack": "^1.13.2"
   },
   "dependencies": {
-    "cron-humanize": "1.0.6"
+    "cronstrue": "^0.8.0"
   }
 }

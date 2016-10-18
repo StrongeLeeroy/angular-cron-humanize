@@ -1,10 +1,10 @@
 {
-  "name": "angular-cron-humanize",
+  "name": "angular-cron-translate",
   "authors": [
     "Gorka Hernandez <info@gorkahernandez.com> (https://www.gorkahernandez.com)"
   ],
   "description": "Cron to human translator",
-  "main": "dist/index.js",
+  "main": "dist/angular-cron-humanize.min.js",
   "moduleType": [
     "globals"
   ],
