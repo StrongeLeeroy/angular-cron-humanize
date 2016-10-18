@@ -59,8 +59,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	var CronService = (function () {
 	    function CronService() {
 	    }
-	    CronService.prototype.toString = function (expression) {
-	        return cronstrue.toString(expression);
+	    CronService.prototype.toString = function (expression, options) {
+	        return cronstrue.toString(expression, options);
 	    };
 	    return CronService;
 	}());

@@ -1,6 +1,6 @@
 {
   "name": "angular-cron-translate",
-  "version": "1.0.8",
+  "version": "1.0.11",
   "description": "Cron to human translator.",
   "main": "dist/angular-cron-translate.js",
   "types": "dist/src/angular-cron-translate.d.ts",
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "release": "del /Q dist && webpack && move /Y dist/src/* dist/ && del /Q dist/src"
+    "release": "del /Q dist && webpack && move /Y dist\\src\\* dist && rd /S /Q dist\\src"
   },
   "keywords": [
     "cron",
